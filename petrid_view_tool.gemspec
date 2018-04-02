@@ -3,6 +3,7 @@ lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "petrid_view_tool/version"
 
+
 Gem::Specification.new do |spec|
   spec.name          = "petrid_view_tool"
   spec.version       = PetridViewTool::VERSION
